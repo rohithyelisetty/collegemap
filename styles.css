@@ -290,7 +290,7 @@ body {
 }
 
 .pricing-card.pro {
-    border: 2px solid #6366f1;
+    border: 2px solid #1a1778;
     background: rgba(99, 102, 241, 0.1);
 }
 
@@ -300,7 +300,7 @@ body {
     top: -12px;
     left: 50%;
     transform: translateX(-50%);
-    background: #6366f1;
+    background: #1a1778;
     color: white;
     padding: 6px 20px;
     border-radius: 20px;
