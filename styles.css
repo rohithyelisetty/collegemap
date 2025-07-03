@@ -504,6 +504,10 @@ body {
 
 /* Responsive nav */
 @media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .nav-links {
     position: absolute;
     top: 70px;
