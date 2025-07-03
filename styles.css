@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Helvetica Neue', sans-serif;
-  background-color: #6a6af9;
+  background-color: #0a0c36;
   color: white;
   scroll-behavior: smooth;
   width: 100%;
@@ -63,7 +63,7 @@ body {
 
 .cta-button:hover {
   background-color: white;
-  color: #6a6af9;
+  color: #0a0c36;
 }
 
 /* Hamburger */
@@ -99,7 +99,7 @@ body {
 
 body {
   margin: 0;
-  background: #6a6af9;
+  background: #0a0c36;
   font-family: sans-serif;
   /* overflow-x: hidden ; */
 }
@@ -124,7 +124,7 @@ body {
   transition: transform 0.1s linear;
   text-align: center;
   padding: 20px;
-  color: black;
+  color: white;
   will-change: transform;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -152,7 +152,7 @@ body {
 /* Hero Section */
 .hero {
   height: 100vh;
-  background: #6a6af9;
+  background: #0a0c36;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -336,7 +336,7 @@ body {
 .cta-button-pricing {
     width: 100%;
     padding: 15px 30px;
-    background: #6366f1;
+    background: #151971;
     color: white;
     border: none;
     border-radius: 12px;
@@ -348,7 +348,7 @@ body {
 }
 
 .cta-button-pricing:hover {
-    background: #5855eb;
+    background: #151971;
     transform: translateY(-2px);
     box-shadow: 0 10px 20px rgba(99, 102, 241, 0.3);
 }
@@ -390,7 +390,7 @@ body {
 .checkmark {
     width: 20px;
     height: 20px;
-    background: rgba(50, 7, 65, 0.3);
+    background: rgba(14, 14, 67, 0.3);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -401,23 +401,9 @@ body {
 
 .checkmark::after {
     content: "✓";
-    color: #6a6af9;
+    color: rgb(103, 105, 150);
     font-size: 12px;
     font-weight: bold;
-}
-
-.notification {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    background: #10b981;
-    color: white;
-    padding: 15px 25px;
-    border-radius: 10px;
-    transform: translateX(400px);
-    transition: transform 0.3s ease;
-    z-index: 1000;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 .notification.show {
@@ -479,13 +465,15 @@ body {
   padding: 1%;
   border-radius: 10%;
   font-size: 1.2rem;
-  background-color: #6a6af9;
-  color: #000;
+  background-color: #0a0c36;
+  color: white;
   text-decoration: none;
+  border: 1px solid white
 }
 
 .linkedin:hover {
-  color: #ffffff;
+  background-color: white;
+  color: #0a0c36;
 }
 
 .footer {
@@ -521,7 +509,7 @@ body {
     top: 70px;
     left: 0;
     right: 0;
-    background-color: #6a6af9;
+    background-color: #0a0c36;
     flex-direction: column;
     align-items: center;
     display: none;
