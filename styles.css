@@ -520,9 +520,9 @@ body {
     padding: 20px 0;
   }
 
-  .cards {
+  /* .cards {
     height: 100vh;
-  }
+  } */
 
   .nav-links.show {
     display: flex;
