@@ -291,13 +291,13 @@ body {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
-/* .pricing-card.pro {
+.pricing-card.extra {
     border: 2px solid #1a1778;
     background: rgba(99, 102, 241, 0.1);
 }
 
-.pricing-card.pro::before {
-    content: "MOST POPULAR";
+.pricing-card.extra::before {
+    content: "ADD-ON";
     position: absolute;
     top: -12px;
     left: 50%;
@@ -309,7 +309,7 @@ body {
     font-size: 0.75rem;
     font-weight: 600;
     letter-spacing: 1px;
-} */
+}
 
 .plan-name {
     font-size: 2rem;
