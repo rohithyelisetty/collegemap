@@ -572,7 +572,12 @@ body {
   }
 
   #freeconsult {
-    /* display: none; */
+    border: 2px solid white;
+    padding: 6px 10px;
+    border-radius: 10px;
+    font: 1rem !important;
+    /* text-decoration: none; */
+    font-weight: bold;
   }
 
   .main-title {
