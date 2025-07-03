@@ -289,7 +289,7 @@ body {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
-.pricing-card.pro {
+/* .pricing-card.pro {
     border: 2px solid #1a1778;
     background: rgba(99, 102, 241, 0.1);
 }
@@ -307,7 +307,7 @@ body {
     font-size: 0.75rem;
     font-weight: 600;
     letter-spacing: 1px;
-}
+} */
 
 .plan-name {
     font-size: 2rem;
@@ -329,8 +329,22 @@ body {
 
 .price-period {
     color: #b0b0b0;
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     margin-bottom: 30px;
+}
+
+.blank-button {
+    width: 100%;
+    padding: 15px 30px;
+    background: transparent;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 40px;
 }
 
 .cta-button-pricing {
@@ -521,7 +535,7 @@ body {
   }
 
   /* .cards {
-    height: 100vh;
+    overflow-x: ;
   } */
 
   .nav-links.show {
