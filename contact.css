@@ -1,0 +1,378 @@
+body {
+    margin: 0;
+    background-color: #000;
+    color: white;
+}
+
+
+#contactplug {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.formcontainer {
+    margin-bottom: 10%;
+}
+
+.sendbutton {
+    background-color: #6a6af9 !important;
+    color: white !important;
+    border-color: white !important;
+}
+
+.sendbutton:hover {
+    background-color: black !important;
+    color: #6a6af9 !important;
+    border: 1px #6a6af9 solid !important;
+}
+
+#contactTitle {
+    font-family: "Avenir";
+    font-size: 56px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+#contactemail,
+#contactmedia {
+    text-align: left;
+    margin-top: 10%;
+    padding-left: 15%;
+}
+
+.contactimg {
+    width: 50px;
+    border-radius: 5px;
+}
+
+.formrow {
+    width: 80%;
+    float: right;
+}
+
+#email:link {
+    color: white !important;
+}
+
+
+#email:visited {
+    color: white !important;
+}
+
+#email:hover {
+    color: white !important;
+}
+
+
+#email:active {
+    color: white !important;
+}
+
+#emailcontact {
+    margin-top: 10%;
+}
+
+.descdiv {
+    width: 50%;
+}
+
+form {
+    font-family: "Avenir" !important;
+}
+
+.field {
+    background-color: black !important;
+    color: white !important;
+    border-radius: 0px !important;
+    font-size: 14px;
+}
+
+.labels {
+    font-size: 15px;
+    margin-top: 3%;
+}
+
+.submitdiv {
+    width: 100%;
+    background-color: white;
+}
+
+#emailsubmit {
+    float: right;
+    border-radius: 0px !important;
+    margin-top: 3%;
+    width: 25%;
+}
+
+#emailsubmit:hover {
+    /* border: 1px solid #ff6464 !important;
+    background-color: black !important;
+    color: #ff6464 !important; */
+    transition: 0.5s;
+}
+
+@media(max-width: 767px) {
+    #contactemail, #contactmedia {
+        text-align: center;
+        padding-left: 0%;
+    }
+
+    #emailsubmit {
+       left: 72%;
+    }
+    
+    form {
+        width: 100%;
+        /* padding-left: 5%; */
+    }
+
+    .formrow {
+        width: 100%;
+    }
+
+    .descdiv {
+        width: 100%;
+    }
+}
+
+.navbar {
+    background-color: #6a6af9;
+}
+
+#logo-link {
+    text-decoration: none;
+    color: white;
+}
+
+.containercontact {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    /* padding: 60px 80px; */
+    flex-wrap: wrap;
+}
+
+.fullcontact {
+    min-height: 100vh;
+}
+
+.left, .right {
+    flex: 1;
+    min-width: 300px;
+}
+
+.left {
+    padding-left: 10%
+}
+
+.right {
+    padding-top: 7%;
+    padding-right: 10%;
+    padding-bottom: 7.5%;
+}
+
+.left h1 {
+    /* text-align: center; */
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.left a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 10px;
+    border-bottom: 1px solid white;
+}
+
+.left a:hover {
+    color: #ff6b6b;
+    border-bottom-color: #ff6b6b;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.contact-info i {
+    color: #ff6b6b;
+    font-size: 28px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-icons i {
+    background: white;
+    color: black;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.social-icons i:hover {
+    background: #ff6b6b;
+    color: white;
+}
+
+.right form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.name-fields {
+    display: flex;
+    gap: 15px;
+}
+
+input, textarea {
+    background: black;
+    border: 1px solid white;
+    padding: 12px;
+    color: white;
+    font-size: 14px;
+    width: 100%;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+button {
+    align-self: flex-end;
+    padding: 12px 28px;
+    background: #ff6b6b;
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #e85959;
+}
+
+.consultation-note {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+.contactimg {
+    width: 50px;
+}
+
+.formrow {
+    width: 100%;
+    float: right;
+}
+
+#email:link {
+    color: white !important;
+}
+
+
+#email:visited {
+    color: white !important;
+}
+
+#email:hover {
+    color: white !important;
+}
+
+
+#email:active {
+    color: white !important;
+}
+
+#emailcontact {
+    margin-top: 10%;
+}
+
+.descdiv {
+    width: 50%;
+}
+
+form {
+    font-family: "Avenir" !important;
+}
+
+.field {
+    background-color: black !important;
+    color: white !important;
+    border-radius: 0px !important;
+    font-size: 14px;
+}
+
+.labels {
+    font-size: 15px;
+    margin-top: 3%;
+}
+
+.submitdiv {
+    width: 100%;
+    background-color: white;
+}
+
+#emailsubmit {
+    float: right;
+    border-radius: 0px !important;
+    margin-top: 3%;
+    width: 25%;
+}
+
+#emailsubmit:hover {
+    /* border: 1px solid #ff6464 !important;
+    background-color: black !important;
+    color: #ff6464 !important; */
+    transition: 0.5s;
+}
+
+@media(max-width: 767px) {
+    #contactemail, #contactmedia {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    #emailsubmit {
+       left: 72%;
+    }
+    
+    form {
+        width: 100%;
+        /* padding-left: 5%; */
+    }
+
+    .formrow {
+        width: 100%;
+    }
+
+    .descdiv {
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .container {
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    .name-fields {
+        flex-direction: column;
+    }
+
+    .left h1 {
+        font-size: 42px;
+    }
+}
