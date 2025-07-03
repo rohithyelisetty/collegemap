@@ -542,9 +542,9 @@ body {
 /* Responsive nav */
 @media (max-width: 768px) {
   
-  body {
+  html, body {
     max-width: 100%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
 
   .nav-links {
